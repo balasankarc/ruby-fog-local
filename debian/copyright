@@ -1,35 +1,48 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: fog-local
-Source: FIXME <http://example.com/>
+Source: https://github.com/fog/fog-local/
 
 Files: *
-Copyright: <years> <put author's name and email here>
-           <years> <likewise for another author>
-License: GPL-2+ (FIXME)
+Copyright: 2015 geemus <geemus@gmail.com>
+           2015 Lance Ivy <lance@cainlevy.net>
+           2015 Paul Thornthwaite <tokengeek@gmail.com>
+           2015 Benjamin Manns <benmanns@gmail.com>
+           2015 Sjoerd Andringa <sjoerd.andringa@me.com>
+           2015 Juris Galang <jurisgalang@gmail.com>
+           2015 Paul Thornthwaite <paul@brightbox.co.uk>
+           2015 Jamie Paton <jamiep@activestate.com>
+           2015 Thomas Wright <tfwright@gmail.com>
+           2015 Wesley Beary <me@geemus.com>
+           2015 Karl Freeman <karlfreeman@gmail.com>
+           2015 Andy Lindeman <andy@andylindeman.com>
+           2015 Athir Nuaimi <anuaimi@devfoundry.com>
+           2015 Brian D. Burns <iosctr@gmail.com>
+           2015 Jade Tucker <jadeatucker@gmail.com>
+           2015 James Herdman <james.herdman@me.com>
+           2015 Adam Tanner <adam@adamtanner.org>
+           2015 Mark Yen <marky@activestate.com>
+License: Expat
 
 Files: debian/*
-Copyright: 2015 Balasankar C <balasankarc@autistici.org>
-License: GPL-2+ (FIXME)
+Copyright: 2014 Balasankar C <balasankarc@autistici.org>
+License: Expat
 Comment: the Debian packaging is licensed under the same terms as the original package.
 
-License: GPL-2+ (FIXME)
- This program is free software; you can redistribute it
- and/or modify it under the terms of the GNU General Public
- License as published by the Free Software Foundation; either
- version 2 of the License, or (at your option) any later
- version.
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
  .
- This program is distributed in the hope that it will be
- useful, but WITHOUT ANY WARRANTY; without even the implied
- warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
- PURPOSE.  See the GNU General Public License for more
- details.
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
  .
- You should have received a copy of the GNU General Public
- License along with this package; if not, write to the Free
- Software Foundation, Inc., 51 Franklin St, Fifth Floor,
- Boston, MA  02110-1301 USA
- .
- On Debian systems, the full text of the GNU General Public
- License version 2 can be found in the file
- `/usr/share/common-licenses/GPL-2'.
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
