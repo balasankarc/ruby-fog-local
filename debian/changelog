@@ -1,0 +1,5 @@
+ruby-fog-local (0.2.1-1) UNRELEASED; urgency=medium
+
+  * Initial release (Closes: #nnnn)
+
+ -- Balasankar C <balasankarc@autistici.org>  Sun, 03 May 2015 17:11:30 +0530
