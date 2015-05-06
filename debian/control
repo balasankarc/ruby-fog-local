@@ -14,18 +14,17 @@ XS-Ruby-Versions: all
 Package: ruby-fog-local
 Architecture: all
 XB-Ruby-Versions: ${ruby:Versions}
-Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpretera, ruby-fog-core
-# bundler (~> 1.7, development), rake (~> 10.0, development), shindo (~> 0.3, development), fog-core (~> 1.27)
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter,
+ ruby-fog-core
 Description: Module for the 'fog' gem to support local filesystem storage
  This library can be used as a module for `fog` or as standalone provider
  to use local filesystem storage. fog is the Ruby cloud services library, top 
  to bottom:
  .
-  *Collections provide a simplified interface, making clouds easier to work with 
-  and switch between.
+  * Collections provide a simplified interface, making clouds easier to work
+    with and switch between.
  .
-  *Requests allow power users to get the most out of the features of each 
-  individual cloud.
+  * Requests allow power users to get the most out of the features of each 
+    individual cloud.
  .
-  *Mocks make testing and integrating a breeze.
-
+  * Mocks make testing and integrating a breeze.
