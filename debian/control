@@ -16,6 +16,8 @@ Architecture: all
 XB-Ruby-Versions: ${ruby:Versions}
 Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter,
  ruby-fog-core
+Breaks: ruby-fog (<< 1.29)
+Replaces: ruby-fog (<< 1.29)
 Description: Module for the 'fog' gem to support local filesystem storage
  This library can be used as a module for `fog` or as standalone provider
  to use local filesystem storage. fog is the Ruby cloud services library, top 

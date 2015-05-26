@@ -1,3 +1,9 @@
+ruby-fog-local (0.2.1-2) unstable; urgency=medium
+
+  * Add Breaks+Replaces for ruby-fog << 1.29 (Closes: #786379)
+
+ -- Balasankar C <balasankarc@autistici.org>  Tue, 26 May 2015 22:47:02 +0530
+
 ruby-fog-local (0.2.1-1) unstable; urgency=medium
 
   * Initial release (Closes: #784133)
